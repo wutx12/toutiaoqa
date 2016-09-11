@@ -1,13 +1,13 @@
-import os
-
-"""
+'''
     This piece of code analyze basic properties of the dataset for Toutiao QA competition.
-    It also trains a Logistic regression model as a baseline.
 
     Input data path: ~/../data/{invited_info_train, question_info, user_info, validate_nolabel}.txt
 
     @author: xinghai
-"""
+'''
+
+
+import os
 
 # load file and extract features for users and questions
 curPath = os.path.dirname(os.path.realpath(__file__))
